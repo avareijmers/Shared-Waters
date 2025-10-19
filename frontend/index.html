@@ -1,18 +1,54 @@
+<!-- 
+    index.html
+    Shared Waters - Carmen
+    10/19/2025
+
+    Shared Waters Front End
+
+    Purpose: implementation of front-end html
+
+    Hello team! For those unfamiliar with VSCode and Github, I will be 
+    annotating this file. For our first assignment, we will be doing basic
+    push/pull requests to GitHub to change the website interface. Your task
+    is to add your name, change the color, and font of your text, and push it
+    to our GitHub. Slack me if you have questions - Carmen
+-->
+
 <!DOCTYPE html>
 <html lang="en">
+<!-- 
+    DOCTYPE tells the browser this is an HTML5 document
+     "lang" attribute specifies the page language (English)  
+-->
 
 <head>
+ <!-- head includes metadata about the html document not displayed on 
+the actual webpage -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shared Waters</title>
+  <!-- makes page size responsive -->
+  <title>Shared Waters Team</title>
+  <!-- this is our title  -->
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- connects this html file to the styles.css file  -->
 </head>
 
 <body>
+ <!-- everything visible on the webpage goes here -->
   <h1>Shared Waters</h1>
-  <p id="water-level1">Loading...</p>
-  <p id="water-level2">Loading...</p>
-  <p id="water-level3">Loading...</p>
+
+  <!-- !! YOUR ASSIGNMENT!! -->
+  <!-- Each person adds their name below following the format:
+<p class="team-member" style="color: blue; font-family: 'Courier New';">Your Name</p>
+    You can change "color" and "font-family" to whatever you like!
+  -->
+  <div class="team-section">
+<!-- making a class because we want to group  the team member names  -->
+    <p class="team-member" style="color: darkred; font-family: Arial;">Name1</p>
+    <p> Optional: personalize a message below your name </p>
+    <p class="team-member" style="color: green; font-family: 'Comic Sans MS';">Name2</p>
+    <p class="team-member" style="color: purple; font-family: Georgia;">Name3</p>
+  </div>
 
   <script src="script.js"></script>
 </body>

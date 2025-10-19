@@ -1,0 +1,25 @@
+/* General page styling */
+body {
+    background-color: #b8deff; /* You can change this color! */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Team names on the left side */
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding-left: 50px; /* Adds space from the left edge */
+  }
+  
+  /* Main header styling */
+  .main-title {
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  /* Team member styling */
+  .team-member {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
