@@ -1,7 +1,7 @@
 # The Transboundary Dispute Database (tfdd)
 
 ## Team Members
-Ava Reijmers, Carmen Bechtel, Amanda Moore-Rinehart, (add your name here!)
+Ava Reijmers, Carmen Bechtel, Amanda Moore-Rinehart, (add your name here!!!)
 
 ## Motives
 Transboundary water basin pollution index and visualization
